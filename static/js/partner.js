@@ -1,38 +1,21 @@
-
-var myScroll,pullDownEl, pullDownOffset,pullUpEl, pullUpOffset,generatedCount = 0;
+var myScroll, pullUpEl, pullUpOffset, generatedCount = 0;
 
 function loaded() {
     //动画部分
-    pullDownEl = document.getElementById('pullDown');
-    pullDownOffset = pullDownEl.offsetHeight;
     pullUpEl = document.getElementById('pullUp');
     pullUpOffset = pullUpEl.offsetHeight;
-    myScroll = new IScroll('#wrapper', {
+    myScroll = new iScroll('wrapper', {
         useTransition: true,
-        topOffset: pullDownOffset,
         onRefresh: function () {
-            if (pullDownEl.className.match('loading')) {
-                pullDownEl.className = '';
-                pullDownEl.querySelector('.pullDownLabel').innerHTML = '下拉刷新';
-            } else if (pullUpEl.className.match('loading')) {
+            if (pullUpEl.className.match('loading')) {
                 pullUpEl.className = '';
                 pullUpEl.querySelector('.pullUpLabel').innerHTML = '上拉加载更多';
             }
         },
         onScrollMove: function () {
-
-            if (this.y > 5 && !pullDownEl.className.match('flip')) {
-                pullDownEl.className = 'flip';
-                pullDownEl.querySelector('.pullDownLabel').innerHTML = '释放刷新';
-                this.minScrollY = 0;
-            } else if (this.y < 5 && pullDownEl.className.match('flip')) {
-                pullDownEl.className = '';
-                pullDownEl.querySelector('.pullDownLabel').innerHTML = 'Pull down to refresh...';
-                this.minScrollY = -pullDownOffset;
-            } else if (this.y < (this.maxScrollY - 5) && !pullUpEl.className.match('flip')) {
+            if (this.y < (this.maxScrollY - 5) && !pullUpEl.className.match('flip')) {
                 pullUpEl.className = 'flip';
                 pullUpEl.querySelector('.pullUpLabel').innerHTML = '释放刷新';
-                this.maxScrollY = this.maxScrollY;
             } else if (this.y > (this.maxScrollY + 5) && pullUpEl.className.match('flip')) {
                 pullUpEl.className = '';
                 pullUpEl.querySelector('.pullUpLabel').innerHTML = 'Pull up to load more...';
@@ -40,14 +23,10 @@ function loaded() {
             }
         },
         onScrollEnd: function () {
-            if (pullDownEl.className.match('flip')) {
-                pullDownEl.className = 'loading';
-                pullDownEl.querySelector('.pullDownLabel').innerHTML = '加载中';
-                pullDownAction();	// Execute custom function (ajax call?)
-            } else if (pullUpEl.className.match('flip')) {
+            if (pullUpEl.className.match('flip')) {
                 pullUpEl.className = 'loading';
                 pullUpEl.querySelector('.pullUpLabel').innerHTML = '加载中';
-                pullUpAction();	// Execute custom function (ajax call?)
+                pullUpAction();
             }
         }
     });
@@ -56,44 +35,37 @@ function loaded() {
 }
 
 
-
-// document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);//阻止冒泡
-// document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 0); }, false);
-
 //初始状态，加载数据
-function loadAction(){
+function loadAction() {
     var el, li;
     el = document.getElementById('thelist');
-    for (i=0; i<4; i++) {
-        li = document.createElement('li');
-        li.innerText = '这个是数据哦--' + (++generatedCount);
-        el.appendChild(li, el.childNodes[0]);
+
+    var str = '<li>\n' +
+        '             <div class="content" style="background-image: url(\'../static/image/person.png\')">\n' +
+        '                 <div class="border">杨宇的店铺</div>\n' +
+        '             </div>\n' +
+        '             <div class="time">\n' +
+        '                 <span>加入日期：</span>\n' +
+        '                 <span>2019-12-12</span>\n' +
+        '             </div>\n' +
+        '              <div class="look"></div>\n' +
+        '          </li>';
+
+    var inn = el.innerHTML;
+
+    for (i = 0; i < 4; i++) {
+        inn = inn + str;
     }
+    el.innerHTML = inn;
     myScroll.refresh();
 }
 
-//下拉刷新当前数据
-function pullDownAction () {
-    setTimeout(function () {
-        //这里执行刷新操作
-        myScroll.refresh();
-    }, 400);
-}
-
-
-
 //上拉加载更多数据
-function pullUpAction () {
+function pullUpAction() {
     setTimeout(function () {
-        var el, li;
-        el = document.getElementById('thelist');
-        for (i=0; i<4; i++) {
-            li = document.createElement('li');
-            li.innerText = '上拉加载--' + (++generatedCount);
-            el.appendChild(li, el.childNodes[0]);
-        }
+        loadAction();
         myScroll.refresh();
     }, 400);
 }
 
-loaded();
+setTimeout(loaded, 0);

@@ -56,7 +56,7 @@ html .list ul li, body .list ul li {
   color: #fed536;
   font-size: .3rem;
   overflow: hidden;
-  padding: .1rem 0;
+  padding: 0.02rem 0;
   text-overflow: ellipsis; }
 
 html .list ul li span.time, body .list ul li span.time {

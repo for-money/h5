@@ -66,7 +66,7 @@ var lis = $("ul.select li");
 function draw() {
     listData = getList(userMessage, priceCount);
     lis.each(function (index, li) {
-        var img = $("<img>").attr('src', '../../static/image/' + listData[index].icon + '.png');
+        var img = $("<img>").attr('src', '../static/image/' + listData[index].icon + '.png');
         $(li).append(img)
     })
 }
