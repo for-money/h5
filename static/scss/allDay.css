@@ -1,0 +1,75 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html .allDay, body .allDay {
+  width: 100%;
+  height: 7rem;
+  background-image: url("../../static/image/all-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden; }
+
+html .allDay .inline, body .allDay .inline {
+  width: 4.02rem;
+  display: block;
+  margin: .8rem auto 0 auto;
+  animation: move 4s infinite linear; }
+
+html .allDay .chong, body .allDay .chong {
+  width: 100%;
+  display: block; }
+
+html ul.select, body ul.select {
+  height: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background: #000; }
+
+html ul.select li, body ul.select li {
+  height: .7rem;
+  width: 2.16rem;
+  background-image: url("../../static/image/gold-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  text-align: center; }
+
+html ul.select li img, body ul.select li img {
+  width: 100%; }
+
+html .list, body .list {
+  height: calc(100% - 8.8rem);
+  width: 100%;
+  background: #000;
+  box-sizing: border-box;
+  padding: .3rem .4rem; }
+
+html .list ul, body .list ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html .list ul li, body .list ul li {
+  color: #fed536;
+  font-size: .3rem;
+  overflow: hidden;
+  padding: .1rem 0;
+  text-overflow: ellipsis; }
+
+html .list ul li span.time, body .list ul li span.time {
+  margin-right: .4rem; }
+
+@keyframes move {
+  0% {
+    transform: translateX(0%); }
+  25% {
+    transform: translateX(-10%); }
+  50% {
+    transform: translateX(0%); }
+  75% {
+    transform: translateX(10%); }
+  100% {
+    transform: translateX(0%); } }
