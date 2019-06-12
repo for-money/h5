@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="310b100d-25d8-4222-8f4d-19db0f356ec5" name="Default" comment="" />
+    <list default="true" id="310b100d-25d8-4222-8f4d-19db0f356ec5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/partner/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partner/partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/入场券转让.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/扫描二维码注册竞技宝贝.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/消费券兑换.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/观看券兑换.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/首页-竞技宝贝.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/partner.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/partner.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,20 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partner.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partner.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/partner/partner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="768">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partner.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partner.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/partner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="414">
+              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -68,6 +76,9 @@
       <find>bg</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,11 +94,11 @@
         <option value="$PROJECT_DIR$/static/js/index.js" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/static/scss/allDay.scss" />
-        <option value="$PROJECT_DIR$/static/js/partner.js" />
         <option value="$PROJECT_DIR$/pages/allDay/allDay.html" />
         <option value="$PROJECT_DIR$/static/js/allDay.js" />
         <option value="$PROJECT_DIR$/static/scss/partner.scss" />
         <option value="$PROJECT_DIR$/pages/partner/partner.html" />
+        <option value="$PROJECT_DIR$/static/js/partner.js" />
       </list>
     </option>
   </component>
@@ -107,11 +118,12 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,9 +199,9 @@
       <recent name="C:\Users\ms\Desktop\h5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ms\Desktop\h5\static\js" />
       <recent name="C:\Users\ms\Desktop\h5\static\image" />
       <recent name="C:\Users\ms\Desktop\h5\psd" />
-      <recent name="C:\Users\ms\Desktop\h5\static\js" />
       <recent name="C:\Users\ms\Desktop\h5\static\media" />
       <recent name="C:\Users\ms\Desktop\h5\static\scss" />
     </key>
@@ -218,22 +230,22 @@
       <updated>1560097072087</updated>
       <workItem from="1560097075408" duration="5962000" />
       <workItem from="1560169989917" duration="160000" />
-      <workItem from="1560170357811" duration="34191000" />
+      <workItem from="1560170357811" duration="37657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40313000" />
+    <option name="totallyTimeSpent" value="43779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19652265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19652265" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -456,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/partner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/partner.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -479,8 +484,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/partner/partner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="768">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/partner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
         </state>
       </provider>
     </entry>
