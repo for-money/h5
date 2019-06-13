@@ -2,18 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310b100d-25d8-4222-8f4d-19db0f356ec5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/image/mabox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/singin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/allDay/allDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/allDay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partner/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/allDay.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/allDay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/iscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/partner.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/partner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/allDay.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/allDay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/allDay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/allDay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/partner.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/partner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/partner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/partner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-10000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-10000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-100000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-100000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-2000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-2000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-20000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-20000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/10-5000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/10-5000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-10000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-10000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-100000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-100000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-2000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-2000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-20000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-20000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/9-5000.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/9-5000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/all-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/all-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/banner2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/banner2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/bis-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/bis-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/bottom-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/bottom-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/bottom-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/bottom-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/chong.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/chong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/djss.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/djss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/gold-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/gold-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/in.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/inline.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/inline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/jjbb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/jjbb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/list.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/look.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/look.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/mabox.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/mabox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/ppbj.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/ppbj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/singin.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/singin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/sp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/sp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/all-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/bottom-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/bottom-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/bottom-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/djss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/jjbb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/mnjj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/ppbj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/qtss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/right-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/zip/sp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +66,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="singin.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singin.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/singin.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="607">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -69,6 +117,7 @@
       <find>y</find>
       <find>pullDownEl</find>
       <find>loadAction</find>
+      <find>border</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,8 +135,6 @@
         <option value="$PROJECT_DIR$/static/js/canvas.js" />
         <option value="D:/aa.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/static/js/index.js" />
-        <option value="$PROJECT_DIR$/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/pages/allDay/allDay.html" />
         <option value="$PROJECT_DIR$/pages/partner/partner.html" />
         <option value="$PROJECT_DIR$/static/scss/partner.scss" />
@@ -97,6 +144,8 @@
         <option value="$PROJECT_DIR$/static/scss/allDay.scss" />
         <option value="$PROJECT_DIR$/pages/singin.html" />
         <option value="$PROJECT_DIR$/static/scss/singin.scss" />
+        <option value="$PROJECT_DIR$/static/scss/index.scss" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
       </list>
     </option>
   </component>
@@ -116,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
@@ -148,12 +197,6 @@
               <item name="h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,6 +204,13 @@
               <item name="h5" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -217,14 +267,15 @@
       <workItem from="1560097075408" duration="5962000" />
       <workItem from="1560169989917" duration="160000" />
       <workItem from="1560170357811" duration="46777000" />
+      <workItem from="1560359898242" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52899000" />
+    <option name="totallyTimeSpent" value="53267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19652265" />
@@ -249,19 +300,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19652265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -272,6 +323,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/image/code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -329,16 +383,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/rem.js.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="1" column="84922" lean-forward="true" selection-start-line="1" selection-start-column="84922" selection-end-line="1" selection-end-column="84922" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/static/image/banner2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -371,20 +416,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/aa.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/canvas.js" />
     <entry file="file://$PROJECT_DIR$/static/js/rem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -400,23 +433,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/image/background.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/image/all-bg.png">
       <provider selected="true" editor-type-id="images" />
@@ -478,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,10 +544,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/singin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="607">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>

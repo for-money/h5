@@ -4,7 +4,6 @@ var mySwiper = new Swiper('.swiper-container', {
 });
 
 
-// <img src='./static/image/fire.png' class="circleMove"/>
 
 var mp3 = $("audio");
 var that;
@@ -18,8 +17,10 @@ $('.content li a').on('click',function(e) {
     $(this).closest('li').addClass('swing').siblings().removeClass('swing')
 })
 
-$('.content li').on('animationend',function () {
+var lis = $('.content li');
+lis.on('animationend',function () {
     flag = true;
+    lis.removeClass('swing');
     location.href = $(this).find('a').attr('href');
 })
 
