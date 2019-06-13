@@ -43,7 +43,6 @@ body {
     body ul.list li {
       height: .7rem;
       width: 3.1rem;
-      background-image: url("../../static/image/roll-bg.png");
       background-size: 100% 100%;
       background-position: center;
       text-align: center;
