@@ -1,0 +1,107 @@
+@import "common.scss";
+@import "var";
+@import "mixin";
+
+img {
+  @include imgBlock;
+}
+
+html {
+  @include percentage100;
+  @include overflow;
+}
+
+body {
+  @include percentage100;
+  @include overflow;
+  background: url("../image/top.png"), url("../image/bis-bg.png");
+  background-size: 100%, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.rollout {
+  width: 4.1rem;
+  height: 1.32rem;
+  @include auto;
+  margin-top: 0.73rem;
+  margin-bottom: 0.4rem;
+  > img {
+    @include imgBlock;
+  }
+}
+
+// 640*390
+
+.form {
+  width: 6.4rem;
+  height: 3.9rem;
+  padding: 0.28rem 0.26rem;
+  box-sizing: border-box;
+  color: $theme;
+  font-size: $fontSize;
+  @include auto;
+  background: url("../image/rolloutlogin.png") center / 100% 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #65f5ff;
+}
+
+.formControl {
+  height: 0.88rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.01rem dashed #7dc4d4;
+  color: $theme;
+  label {
+    font-weight: bold;
+    width: 1.2rem;
+    text-align: right;
+  }
+  input {
+    width: 4.1rem;
+    height: 0.56rem;
+    outline: none;
+    color: $theme;
+    background-color: #22201f;
+    border: none;
+    padding: 0.2rem 0 0.2rem 0.26rem;
+    box-sizing: border-box;
+  }
+}
+
+.formControl:last-of-type {
+  border-bottom: none;
+  > div {
+    display: flex;
+    width: 4.1rem;
+    justify-content: space-between;
+    > input {
+      width: 2.7rem;
+    }
+    > a {
+      display: block;
+      width: 1.27rem;
+      height: 0.56rem;
+    }
+  }
+}
+
+.jingImg {
+  width: 4.4rem;
+  height: 1.68rem;
+  margin: 0.8rem auto 0.7rem;
+}
+
+#submit {
+  width: 4.1rem;
+  height: 0.74rem;
+  display: block;
+  outline: none;
+  border: none;
+  @include auto;
+  background: url("../image/confirmrollout.png") center / 100% 100%;
+}
+
+
