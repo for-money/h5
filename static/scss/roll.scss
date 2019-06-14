@@ -17,7 +17,7 @@ body,html{
   overflow: hidden;
 }
 body {
-  background-image: url("../../static/image/bis-bg.png");
+  background-image: url('../../static/image/bis-bg.png');
   background-size: 100% 100%;
   background-position: center;
   position: relative;
@@ -53,7 +53,6 @@ body {
     li {
       height: .7rem;
       width: 3.1rem;
-      background-image: url("../../static/image/roll-bg.png");
       background-size: 100% 100%;
       background-position: center;
       text-align: center;
