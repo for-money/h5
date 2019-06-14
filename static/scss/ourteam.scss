@@ -1,0 +1,81 @@
+@import "var";
+@import "mixin";
+html , body{
+  @include percentage100;
+}
+.nav {
+  height: 1rem;
+  border-bottom: 0.01rem solid $ourteamtheme;
+  padding: 0 0.28rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  > li {
+    height: 100%;
+    line-height: 1rem;
+    flex-grow: 1;
+    font-size: $ourteamfontsize;
+    color: $ourteamtheme;
+    text-align: center;
+  }
+  > li.hot::after {
+    content: '';
+    width: 100%;
+    height: 0.08rem;
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    background: url("../image/ourteam/ourteamtips.png") center / cover;
+  }
+}
+main{
+  //position: absolute;
+  /*top: 2.2rem;
+  bottom: 1rem;*/
+  height: 10.14rem;
+  width: 100%;
+}
+.first{
+  width: 100%;
+  height: 100%;
+  background: url("../image/ourteam/ourteambg.jpg") center / 100% 100%;
+  padding-top: 5rem;
+  box-sizing: border-box;
+  > .firstBox{
+    width: 5.3rem;
+    height: 4rem;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    > li{
+      width: 2.3rem;
+      height: 0.92rem;
+      > a{
+        display: block;
+        @include percentage100;
+      }
+    }
+    >li:first-of-type{
+       @include backgroundCenter100('../image/ourteam/fqjc.png')
+    }
+    >li:nth-of-type(2){
+      @include backgroundCenter100('../image/ourteam/cjjc.png')
+    }
+    >li:nth-of-type(3){
+      @include backgroundCenter100('../image/ourteam/fqpk.png')
+    }
+    >li:nth-of-type(4){
+      @include backgroundCenter100('../image/ourteam/cjpk.png')
+    }
+    >li:nth-of-type(5){
+      @include backgroundCenter100('../image/ourteam/tdly.png')
+    }
+    >li:nth-of-type(6){
+      @include backgroundCenter100('../image/ourteam/tghy.png')
+    }
+  }
+
+}

@@ -14,3 +14,7 @@
   height: 100%;
   display: block;
 }
+
+@mixin  backgroundCenter100($url){
+  background: url(#{$url}) center / 100% 100%;
+}

@@ -1,0 +1,67 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.nav {
+  height: 1rem;
+  border-bottom: 0.01rem solid #65f5ff;
+  padding: 0 0.28rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .nav > li {
+    height: 100%;
+    line-height: 1rem;
+    flex-grow: 1;
+    font-size: 0.28rem;
+    color: #65f5ff;
+    text-align: center; }
+  .nav > li.hot::after {
+    content: '';
+    width: 100%;
+    height: 0.08rem;
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    background: url("../image/ourteam/ourteamtips.png") center/cover; }
+
+main {
+  /*top: 2.2rem;
+  bottom: 1rem;*/
+  height: 10.14rem;
+  width: 100%; }
+
+.first {
+  width: 100%;
+  height: 100%;
+  background: url("../image/ourteam/ourteambg.jpg") center/100% 100%;
+  padding-top: 5rem;
+  box-sizing: border-box; }
+  .first > .firstBox {
+    width: 5.3rem;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .first > .firstBox > li {
+      width: 2.3rem;
+      height: 0.92rem; }
+      .first > .firstBox > li > a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .first > .firstBox > li:first-of-type {
+      background: url(../image/ourteam/fqjc.png) center/100% 100%; }
+    .first > .firstBox > li:nth-of-type(2) {
+      background: url(../image/ourteam/cjjc.png) center/100% 100%; }
+    .first > .firstBox > li:nth-of-type(3) {
+      background: url(../image/ourteam/fqpk.png) center/100% 100%; }
+    .first > .firstBox > li:nth-of-type(4) {
+      background: url(../image/ourteam/cjpk.png) center/100% 100%; }
+    .first > .firstBox > li:nth-of-type(5) {
+      background: url(../image/ourteam/tdly.png) center/100% 100%; }
+    .first > .firstBox > li:nth-of-type(6) {
+      background: url(../image/ourteam/tghy.png) center/100% 100%; }
