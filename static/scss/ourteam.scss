@@ -3,6 +3,9 @@
 html , body{
   @include percentage100;
 }
+body{
+  background-color: rgba(0,0,0,0.8);
+}
 .nav {
   height: 1rem;
   border-bottom: 0.01rem solid $ourteamtheme;
