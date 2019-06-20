@@ -12,7 +12,8 @@ img {
 body {
   background-image: url("../image/bis-bg.jpg");
   background-size: 100% 100%;
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .rollout {
   width: 4.1rem;
