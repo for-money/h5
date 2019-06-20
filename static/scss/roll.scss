@@ -20,6 +20,8 @@ body {
   background-image: url('../../static/image/bis-bg.png');
   background-size: 100% 100%;
   background-position: center;
+  box-sizing: border-box;
+  padding-top: 2rem;
   position: relative;
   .roll{
     width: 4.38rem;
@@ -35,7 +37,6 @@ body {
     background-image: url("../../static/image/light.png");
     background-size: 100% 100%;
     background-position: center;
-    margin-top: 2rem;
     .rolltu{
       width: 4rem;
       display: block;

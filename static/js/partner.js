@@ -69,3 +69,78 @@ function pullUpAction() {
 }
 
 setTimeout(loaded, 0);
+
+
+var data = [
+    {
+        label: '山西省',
+        value: 0,
+        children: [
+            {
+                label: '运城市',
+                value: '00',
+                children: [
+                    {
+                        label: '盐湖区',
+                        value: '000'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        label: '陕西省',
+        value: 1,
+        children: [
+            {
+                label: '宝鸡市',
+                value: '11',
+                children: [
+                    {
+                        label: '盐湖区',
+                        value: '111'
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+var pro = document.querySelector('.city.pro');
+var town = document.querySelector('.city.town');
+var coun = document.querySelector('.city.coun');
+
+function showCity() {
+    weui.picker(data, {
+        className: 'pro',
+        container: 'body',
+        onConfirm: function (result) {
+            pro.firstElementChild.innerHTML = result[0].label;
+            town.firstElementChild.innerHTML = result[1].label;
+            coun.firstElementChild.innerHTML = result[2].label;
+        },
+        id: 'pro'
+    });
+}
+
+
+pro.addEventListener('touchstart', function () {
+    showCity()
+})
+
+town.addEventListener('touchstart', function () {
+    showCity()
+})
+
+coun.addEventListener('touchstart', function () {
+    showCity()
+})
+
+var search = document.querySelector('.selectCity .search')
+search.onclick = function () {
+   // 搜索
+}
+
+
+
+
