@@ -7,47 +7,54 @@ body {
   background-image: url("../../static/image/bis-bg.png");
   background-size: 100% 100%;
   background-position: center;
+  box-sizing: border-box;
+  padding-top: 2rem;
   position: relative; }
-  body .roll {
-    width: 4.38rem;
-    display: block;
-    position: absolute;
-    top: .9rem;
-    left: 50%;
-    transform: translateX(-50%); }
-  body .light {
-    width: 100%;
-    height: 5.16rem;
-    background-image: url("../../static/image/light.png");
-    background-size: 100% 100%;
-    background-position: center;
-    margin-top: 2rem; }
-    body .light .rolltu {
-      width: 4rem;
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      margin: auto;
-      display: block; }
-  body ul.list {
-    height: 3.1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    background: #000; }
-    body ul.list li {
-      height: .7rem;
-      width: 3.1rem;
-      background-size: 100% 100%;
-      background-position: center;
-      text-align: center;
-      font-size: .2rem;
-      color: #fff;
-      text-shadow: 0 0 3px red; }
-      body ul.list li img {
-        width: 100%; }
+
+body .roll {
+  width: 4.38rem;
+  display: block;
+  position: absolute;
+  top: .9rem;
+  left: 50%;
+  transform: translateX(-50%); }
+
+body .light {
+  width: 100%;
+  height: 5.16rem;
+  background-image: url("../../static/image/light.png");
+  background-size: 100% 100%;
+  background-position: center; }
+
+body .light .rolltu {
+  width: 4rem;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block; }
+
+body ul.list {
+  height: 3.1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background: #000; }
+
+body ul.list li {
+  height: .7rem;
+  width: 3.1rem;
+  background-size: 100% 100%;
+  background-position: center;
+  text-align: center;
+  font-size: .2rem;
+  color: #fff;
+  text-shadow: 0 0 3px red; }
+
+body ul.list li img {
+  width: 100%; }

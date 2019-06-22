@@ -69,3 +69,49 @@ function pullUpAction() {
 }
 
 setTimeout(loaded, 0);
+
+
+var gift = $("#gift");
+
+$('#thelist').on('click', '.pay', function () {
+    gift.show();
+})
+
+
+$(".close").on('click', function () {
+    gift.hide();
+})
+
+
+$(".list li").on('click', function () {
+    $(this).siblings().removeClass('active')
+    $(this).addClass('active');
+})
+
+
+var btn = $('.btn');
+btn.find('.add').on('click', function () {
+    $('.btn .count').html(function (index, val) {
+        return Number(val) + 1;
+    })
+})
+
+btn.find('.reduce').on('click', function () {
+    $('.btn .count').html(function (index, val) {
+        var num = Number(val) - 1;
+        if (num < 0) {
+            return 0;
+        } else {
+            return num;
+        }
+    })
+})
+
+
+$(".btn-next div:nth-child(1)").on('click', function () {
+
+})
+
+$(".btn-next div:nth-child(2)").on('click', function () {
+    gift.hide();
+})
