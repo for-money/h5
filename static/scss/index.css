@@ -121,11 +121,11 @@ div.content > ul > li > a > img {
   height: 100%;
   color: #1a2124; }
 
-.nav > ul > li > a:active {
+.nav > ul > li > a.active {
   color: #ca7e11;
   font-weight: bold; }
 
-.nav > ul > li > a:active > h1 {
+.nav > ul > li > a.active > h1 {
   font-weight: bold; }
 
 .nav > ul > li > a > img {

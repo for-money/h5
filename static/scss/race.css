@@ -1,10 +1,16 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
 #race {
   width: 100%;
   background-color: #000;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-image: url("../../static/image/bis-bg.png");
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%; }
 
 #race .gift-img {
   width: 4.45rem;
@@ -14,7 +20,9 @@
 
 #race #wrapper {
   width: 100%;
-  overflow: hidden; }
+  height: calc(100% - 2.44rem);
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 #race #wrapper #scroll ul {
   width: 100%;
@@ -71,62 +79,14 @@
   background-size: 100% 100%;
   background-position: center; }
 
+#race #wrapper #scroll ul li .right .pay a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
 #race #wrapper #scroll #pullUp {
   height: .8rem;
   width: 100%;
   color: #65f5ff;
   text-align: center;
   line-height: .8rem; }
-
-.haveGift {
-  height: 9.76rem;
-  background-color: #000;
-  overflow: hidden; }
-
-.haveGift .list {
-  width: 6.67rem;
-  height: 6.57rem;
-  margin: 0 auto 0 auto;
-  padding: .36rem;
-  background-image: url("../../static/image/list-border.png");
-  background-size: 100% 100%;
-  box-sizing: border-box; }
-
-.haveGift .list > li {
-  width: 33.33%;
-  box-sizing: border-box;
-  height: 33.33%;
-  float: left;
-  border-right: 1px dotted rgba(50, 255, 255, 0.2);
-  border-bottom: 1px dotted rgba(50, 255, 255, 0.2); }
-
-.haveGift .list > li > div {
-  width: 100%;
-  overflow: hidden;
-  text-align: center; }
-
-.haveGift .list > li > div > img {
-  width: 90%;
-  display: block;
-  margin: 0 auto; }
-
-.haveGift .list > li > h4 {
-  width: 100%;
-  color: #32f3ff;
-  text-align: center;
-  font-size: .24rem; }
-
-.haveGift .list > li.active {
-  background-color: #1e575a; }
-
-.haveGift .list > li:nth-child(3n) {
-  border-right: none; }
-
-.haveGift .list > li:nth-last-of-type(4) ~ li {
-  border-bottom: none; }
-
-.haveGift .gift-img {
-  width: 4.45rem;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: .4rem; }
