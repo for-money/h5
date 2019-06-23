@@ -26,6 +26,7 @@ body .selectCity {
   background-color: #131818;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-around; }
 
 body .selectCity .city {
