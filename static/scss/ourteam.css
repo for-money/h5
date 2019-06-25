@@ -14,21 +14,23 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8); }
-  .nav > li {
-    height: 100%;
-    line-height: 1rem;
-    flex-grow: 1;
-    font-size: 0.28rem;
-    color: #65f5ff;
-    text-align: center; }
-  .nav > li.hot::after {
-    content: '';
-    width: 100%;
-    height: 0.08rem;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: url("../image/ourteam/ourteamtips.png") center/cover; }
+
+.nav > li {
+  height: 100%;
+  line-height: 1rem;
+  flex-grow: 1;
+  font-size: 0.28rem;
+  color: #65f5ff;
+  text-align: center; }
+
+.nav > li.hot::after {
+  content: '';
+  width: 100%;
+  height: 0.08rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url("../image/ourteam/ourteamtips.png") center/cover; }
 
 main {
   min-height: 1rem;
@@ -44,9 +46,11 @@ main {
   align-items: center;
   color: #65f5ff;
   font-size: 0.24rem;
+  background-color: rgba(50, 243, 255, 0.1);
   border-bottom: 0.01rem dotted #65f5ff; }
-  .storeBox > li > time {
-    color: rgba(50, 243, 255, 0.5); }
+
+.storeBox > li > time {
+  color: rgba(50, 243, 255, 0.5); }
 
 .storeBox > li:last-of-type {
   border-bottom: none; }
@@ -58,22 +62,30 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  .selectList > li {
-    width: 2.3rem;
-    height: 0.92rem; }
-    .selectList > li > a {
-      display: block;
-      width: 100%;
-      height: 100%; }
-  .selectList > li:first-of-type {
-    background: url(../image/ourteam/fqjc.png) center/100% 100%; }
-  .selectList > li:nth-of-type(2) {
-    background: url(../image/ourteam/cjjc.png) center/100% 100%; }
-  .selectList > li:nth-of-type(3) {
-    background: url(../image/ourteam/fqpk.png) center/100% 100%; }
-  .selectList > li:nth-of-type(4) {
-    background: url(../image/ourteam/cjpk.png) center/100% 100%; }
-  .selectList > li:nth-of-type(5) {
-    background: url(../image/ourteam/tdly.png) center/100% 100%; }
-  .selectList > li:nth-of-type(6) {
-    background: url(../image/ourteam/tghy.png) center/100% 100%; }
+
+.selectList > li {
+  width: 2.3rem;
+  height: 0.92rem; }
+
+.selectList > li > a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.selectList > li:first-of-type {
+  background: url(../image/ourteam/fqjc.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(2) {
+  background: url(../image/ourteam/cjjc.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(3) {
+  background: url(../image/ourteam/fqpk.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(4) {
+  background: url(../image/ourteam/cjpk.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(5) {
+  background: url(../image/ourteam/tdly.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(6) {
+  background: url(../image/ourteam/tghy.png) center/100% 100%; }
