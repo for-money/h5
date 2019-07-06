@@ -1,10 +1,10 @@
 $(function(){
-   let button = $('.button');
-   let mask = $('.mask');
-   let cancel = $('.cancel');
-   let send = $('.submit');
-   let textBtn =- $('textarera');
-   let isShow = true;
+   var button = $('.button');
+   var mask = $('.mask');
+   var cancel = $('.cancel');
+   var send = $('.submit');
+   var textBtn = $('textarea');
+   var isShow = true;
    button.on('click',function(){
        if(mask.hasClass('hidden')){
            mask.addClass('visible').removeClass('hidden');
@@ -15,7 +15,7 @@ $(function(){
    });
    send.on('click',function(){
        mask.addClass('hidden').removeClass('visible');
-       let val = textBtn.val();
+       var val = textBtn.val();
 
    })
 

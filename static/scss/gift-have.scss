@@ -60,12 +60,53 @@ body,html{
   }
 
   .haveGift {
-    height: 9.76rem;
     overflow: hidden;
     .gift-img {
       margin-bottom: .4rem;
     }
+    .handler{
+      width: 7rem;
+      height: .9rem;
+      display: flex;
+      color: #32f3ff;
+      font-size: .28rem;
+      font-weight: bold;
+      justify-content: center;
+      margin: 0 auto;
+      align-items: center;
+      margin-top: .2rem;
+      .btn{
+        width: 2.1rem;
+        height: .55rem;
+        display: flex;
+        margin: 0 .26rem;
+        > span {
+          box-sizing: border-box;
+          text-align: center;
+          line-height: .55rem;
+          &:nth-child(1),&:nth-child(3){
+            width: .6rem;
+            height: 100%;
+            font-size: .4rem;
+          }
+          &:nth-child(2) {
+            width: .9rem;
+            border: 1px solid #32f3ff;
+          }
+        }
+      }
+      .true{
+        width: 2.1rem;
+        height: .84rem;
+        > img {
+          width: 100%;
+          display: block;
+        }
+      }
+    }
   }
+
+
 }
 
 
