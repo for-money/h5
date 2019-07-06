@@ -1,0 +1,199 @@
+body {
+  font-size: 14px; }
+
+ul, li, a, p, body, html, ol, pre, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+  text-decoration: none; }
+
+* {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-user-select: none;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+p {
+  max-height: 9999999px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-image: url("../../static/image/guess.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.top-img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0; }
+
+#brand {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+#brand .top {
+  width: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute; }
+
+#brand .rollout {
+  width: 3.24rem;
+  height: 1.24rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.76rem; }
+
+#brand .rollout > img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+#brand .img-box {
+  width: 100%;
+  height: 1.4rem;
+  box-sizing: border-box;
+  padding: 0 .8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#brand .img-box:nth-of-type(1) {
+  margin-top: .4rem; }
+
+#brand .img-box:nth-of-type(2) {
+  margin-bottom: .4rem; }
+
+#brand .img-box > li {
+  width: 2.1rem;
+  height: .85rem; }
+
+#brand .img-box > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center; }
+
+#brand .img-box > li > a:nth-child(1) {
+  background-image: url("../../static/image/pinpai.png"); }
+
+#brand .img-box > li > a:nth-child(2) {
+  background-image: url("../../static/image/event.png"); }
+
+#brand .img-box > li > a:nth-child(3) {
+  background-image: url("../../static/image/meinv.png"); }
+
+#brand .img-box > li > a:nth-child(4) {
+  background-image: url("../../static/image/other.png"); }
+
+#brand .content {
+  width: 100%;
+  height: calc(100% - 6.6rem);
+  overflow-y: scroll; }
+
+#brand .content ul.list {
+  width: 6.35rem;
+  height: auto;
+  margin: 0 auto; }
+
+#brand .content ul.list > li {
+  width: 100%;
+  height: .8rem;
+  line-height: .8rem;
+  border-bottom: 1px dotted rgba(101, 245, 255, 0.3);
+  box-sizing: border-box; }
+
+#brand .content ul.list > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+#brand .content ul.list > li > a > span {
+  color: #65f5ff;
+  font-size: 0.26rem;
+  font-weight: bold; }
+
+#brand .content ul.list > li > a > span:nth-child(1) {
+  width: 60%; }
+
+#brand .content ul.list > li > a > span + img {
+  width: 1.2rem;
+  height: .4rem; }
+
+.nav {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff; }
+
+.nav > ul {
+  width: 100%;
+  height: 100%; }
+
+.nav > ul > li {
+  width: 20%;
+  float: left;
+  height: 100%;
+  text-align: center; }
+
+.nav > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #1a2124; }
+
+.nav > ul > li > a.active {
+  color: #ca7e11;
+  font-weight: bold; }
+
+.nav > ul > li > a.active > h1 {
+  font-weight: bold; }
+
+.nav > ul > li > a > img {
+  height: 80%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+
+.nav > ul > li > a > div {
+  height: 60%; }
+
+.nav > ul > li > a > div span {
+  font-size: 30px;
+  line-height: .6rem; }
+
+.nav > ul > li > a > h1 {
+  height: 60%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: .4rem; }
