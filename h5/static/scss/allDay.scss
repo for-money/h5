@@ -1,0 +1,85 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .allDay {
+    width: 100%;
+    height: 7rem;
+    background-image: url('../../static/image/all-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    .inline {
+      width: 4.02rem;
+      display: block;
+      margin: .8rem auto 0 auto;
+      animation: move 4s infinite linear;
+    }
+    .chong {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  ul.select {
+    height: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background: #000;
+    li {
+      height: .7rem;
+      width: 2.16rem;
+      background-image: url("../../static/image/gold-bg.png");
+      background-size: 100% 100%;
+      background-position: center;
+      text-align: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .list {
+    height: calc(100% - 8.8rem);
+    width: 100%;
+    background: #000;
+    box-sizing: border-box;
+    padding: .3rem .4rem;
+    ul {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      li {
+        color: #fed536;
+        font-size: .3rem;
+        overflow: hidden;
+        padding: 0.02rem 0;
+        text-overflow: ellipsis;
+        span.time {
+          margin-right: .4rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  75% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

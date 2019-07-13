@@ -21,7 +21,8 @@ body {
   flex-grow: 1;
   font-size: 0.28rem;
   color: #65f5ff;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 .nav > li.hot::after {
   content: '';
