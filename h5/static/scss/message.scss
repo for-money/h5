@@ -36,6 +36,7 @@ html, body {
     font-size: $ourteamfontsize;
     color: $ourteamtheme;
     text-align: center;
+    position: relative;
   }
   > li.hot::after {
     content: '';

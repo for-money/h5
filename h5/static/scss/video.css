@@ -34,7 +34,7 @@ html, body {
 
 .button {
   position: absolute;
-  top: 10rem;
+  top: 6rem;
   left: 50%;
   transform: translateX(-50%);
   width: 4.1rem;

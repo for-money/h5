@@ -134,13 +134,14 @@ body{
       border-radius: 5px;
       width: 30%;
       height: .56rem;
-      line-height: .56rem;
       text-align: center;
       border: 1px solid #4db4bb;
       color: #4db4bb;
       display: flex;
       font-size: .2rem;
+      box-sizing: border-box;
       > span {
+        line-height: .56rem;
         &:nth-child(1) {
           overflow: hidden;
           white-space: nowrap;
@@ -154,8 +155,14 @@ body{
           color: #4db4bb;
           text-align: center;
           display: block;
+          position: relative;
           > img{
             width: 60%;
+            display: block;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
           }
         }
       }
