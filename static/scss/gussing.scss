@@ -1,0 +1,545 @@
+$color: #65f5ff;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+#gussing {
+  width: 100%;
+  height: auto;
+  background-image: url("../../static/image/bis-bg.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-position: center top;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: .74rem .48rem 0 .48rem;
+  .top {
+    width: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  .button {
+    @include flex;
+    > img {
+      width: 1.34rem;
+    }
+    .list {
+      color: $color;
+      font-size: .24rem;
+      > span {
+        display: inline-block;
+        width: 1rem;
+        height: .6rem;
+        vertical-align: middle;
+        line-height: .6rem;
+        text-align: center;
+        font-size: .3rem;
+        background-color: #2e3f3f;
+        margin: 0 .1rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .select {
+    width:  3.29rem;
+    display: block;
+    margin:0 auto;
+    margin-bottom: .4rem;
+  }
+  .move {
+    width: 100%;
+    background-image: url("../../static/image/move.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1.4rem;
+    margin: .4rem 0;
+    position: relative;
+    .content {
+      @include center;
+      width: 4.88rem;
+      height: 1.08rem;
+      overflow: hidden;
+      > ul {
+        animation: move 10s infinite forwards linear;
+        > li {
+          font-size: .24rem;
+          color: $color;
+          padding: .1rem 0;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  .imglist {
+    width: 100%;
+    height: 4.46rem;
+    margin-bottom: .58rem;
+    > ul {
+      width: 100%;
+      height: 100%;
+      @include flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      > li {
+        position: relative;
+        width: 1.5rem;
+        height: 1.35rem;
+        .card {
+          perspective: 80rem;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          transition: all ease-in-out 400ms;
+          cursor: pointer;
+          .card__side {
+            transition: all .8s ease;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .card__side--front {
+            z-index: 2;
+          }
+
+          .card__side--back {
+            transform: rotateY(180deg);
+            z-index: 1;
+          }
+
+          .showGreen {
+            transform: rotateY(-180deg);
+          }
+
+          .showRed {
+            transform: rotateY(0);
+          }
+
+        }
+      }
+    }
+  }
+  .my {
+    width: 100%;
+    height: 22.66rem;
+    background-image: url("../../static/image/ca.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: .53rem .12rem;
+    box-sizing: border-box;
+    h1 {
+      font-size: .3rem;
+      color: $color;
+      font-weight: normal;
+    }
+    .first {
+      width: 100%;
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      height: 3.7rem;
+      border-bottom: 1px dotted rgba(101, 245, 255, .2);
+      .beishu {
+        margin: .3rem 0;
+        width: 100%;
+        height: .74rem;
+        @include flex;
+        > li {
+          width: 1.52rem;
+          @include flex;
+          height: 100%;
+          color: $color;
+          > img {
+            width: .85rem;
+          }
+          .right {
+            width: .54rem;
+            height: 100%;
+            font-size: .24rem;
+            > div:first-child {
+              height: 50%;
+            }
+            > div:last-child {
+              background-color: #163233;
+              text-align: center;
+              font-size: .3rem;
+            }
+          }
+        }
+      }
+      .bottom {
+        @include flex;
+        height: .4rem;
+        vertical-align: middle;
+        color: $color;
+        justify-content: space-around;
+        > li > span {
+          &:first-child {
+            line-height: .33rem;
+            vertical-align: middle;
+          }
+          &:last-child {
+            display: inline-block;
+            vertical-align: middle;
+            width: .46rem;
+            height: .33rem;
+            text-align: center;
+            line-height: .33rem;
+            background-color: #163233;
+            font-size: .3rem;
+            margin-left: .1rem;
+          }
+        }
+      }
+      .bottom-btn {
+        margin-top: .2rem;
+        height: .4rem;
+        @include flex;
+        justify-content: space-around;
+        > li {
+          & > img{
+            width: .8rem
+          }
+        }
+      }
+    }
+    .two {
+      height: 4.6rem;
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      border-bottom: 1px dotted rgba(101, 245, 255, .2);
+      .beishu {
+        margin: .3rem 0;
+        width: 100%;
+        @include flex;
+        height: 3rem;
+        flex-wrap: wrap;
+        align-content: space-between;
+        > li {
+          height: 1.3rem;
+          width: 2.5rem;
+          @include flex;
+          color: $color;
+          > img {
+            height: 100%;
+          }
+          .right {
+            width: .8rem;
+            height: 100%;
+            box-sizing: border-box;
+            @include flex;
+            flex-direction: column;
+            font-size: .24rem;
+            > img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+    }
+    .three {
+      height: 3rem;
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      border-bottom: 1px dotted rgba(101, 245, 255, .2);
+      .left {
+        width: 100%;
+        height: 1.35rem;
+        margin: .27rem 0;
+        @include flex;
+        img {
+          height: 100%;
+        }
+      }
+    }
+    .four {
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      border-bottom: 1px dotted rgba(101, 245, 255, .2);
+      height: 2rem;
+      @include flex;
+      align-items: flex-start;
+      > .right {
+        width: 2.42rem;
+        color: $color;
+        > div:first-child {
+          height: .44rem;
+          width: 100%;
+          border: none;
+          background-color: #163233;
+          outline: none;
+          box-sizing: border-box;
+          padding: 0 .1rem;
+          color: $color;
+          font-weight: bold;
+          margin-bottom: .2rem;
+          line-height: .44rem;
+          font-size: .3rem;
+        }
+
+        > div:last-child {
+          height: .44rem;
+          font-size: .24rem;
+        }
+      }
+    }
+    .five {
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      height: 2rem;
+      @include flex;
+      align-items: flex-start;
+      > .right {
+        width: 2.42rem;
+        color: $color;
+        font-size: .3rem;
+        > div:first-child {
+          height: .44rem;
+          width: 100%;
+          border: none;
+          background-color: #163233;
+          outline: none;
+          box-sizing: border-box;
+          padding: 0 .1rem;
+          font-weight: bold;
+          margin-bottom: .2rem;
+          line-height: .44rem;
+        }
+        > div:last-child {
+          height: .44rem;
+          line-height: .44rem;
+          width: 1.33rem;
+          background-image: url("../../static/image/getout.png");
+          background-size: 100%;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .six {
+      width: 100%;
+      padding: .38rem .4rem;
+      box-sizing: border-box;
+      height: 6.8rem;
+      border-bottom: 1px dotted rgba(101, 245, 255, .2);
+      .j-z {
+        height: 3.5rem;
+        margin: .3rem 0;
+        @include flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        > li {
+          width: 1.2rem;
+          > img {
+            width: 100%;
+          }
+        }
+      }
+      .total-count {
+        margin-top: .5rem;
+        > li {
+          height: .44rem;
+          margin-bottom: .05rem;
+          @include flex;
+          > div {
+            color: #65f5ff;
+            width: 2.4rem;
+            height: 100%;
+            font-size: .3rem;
+            border: none;
+            background-color: #163233;
+            box-sizing: border-box;
+            padding: 0 .1rem;
+            font-weight: bold;
+            line-height: .44rem;
+          }
+        }
+      }
+    }
+  }
+  .re {
+    width: 100%;
+    height: 3.27rem;
+    @include flex;
+    > div {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      &:first-child > img {
+        &:nth-child(1) {
+          width: 2.75rem;
+          @include center;
+        }
+        &:nth-child(2){
+          width: .64rem;
+          position: absolute;
+          left:0;
+          top:0;
+          display: none;
+        }
+      }
+      &:first-child.active > img {
+        &:nth-child(2){
+          display: block;
+        }
+      }
+      &:last-child > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        & >  img {
+          @include center;
+          width: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+#more {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.6);
+  display: none;
+  &.active {
+    display: block;
+  }
+  .box {
+    width: 6.57rem;
+    height: 8.18rem;
+    background-image: url("../../static/image/mingxi.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include center;
+    box-sizing: border-box;
+    padding:1.68rem .4rem .6rem .4rem;
+
+    ul {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      li {
+        width: 100%;
+        box-sizing: border-box;
+        padding: .25rem .2rem;
+        border-bottom:1px dotted rgba(101,245,255, 0.2);
+        .time{
+           color: #65f5ff;
+          font-size: .26rem;
+        }
+        .mes{
+          color: #65f5ff;
+          font-size: .3rem;
+          font-weight: bold;
+          span {
+            color: #e7cb59;
+            margin: 0 .1rem;
+          }
+        }
+      }
+    }
+  }
+  .close {
+    width: .96rem;
+    height: 1rem;
+     > img {
+       width: 100%;
+     }
+    position: absolute;
+    left: 50%;
+    margin-left: -.48rem;
+    top: 100%;
+  }
+}
+
+
+#zhongjiang {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.6);
+  display: none;
+  img {
+    width: 100%;
+    @include center;
+  }
+
+  &.active {
+    display: block;
+    img {
+      animation-name: zoomInUp;
+      animation-duration: .8s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+
+@keyframes zoomInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+
+
