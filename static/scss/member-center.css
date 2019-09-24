@@ -1,0 +1,214 @@
+body {
+  width: 100%;
+  height: auto;
+  background: url("../image/bis-bgs.png"); }
+
+.tab {
+  width: 3.76rem;
+  height: 0.6rem;
+  margin: 0.76rem auto;
+  border-radius: 0.3rem;
+  border: solid 0.02rem #32f3ff;
+  color: #32f3ff;
+  font-size: 0.24rem; }
+
+.tab > li {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 0.6rem; }
+
+.tab > li:first-child {
+  border-radius: 0.25rem 0 0 0.25rem; }
+
+.tab > li:last-child {
+  border-radius: 0 0.25rem 0.25rem 0; }
+
+.tab > li.active {
+  background: #32f3ff;
+  color: #000000; }
+
+.tabBox {
+  width: 100%;
+  height: auto;
+  padding-top: 0.58rem; }
+
+.avatar {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  border: 0.02rem solid #32f3ff;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden; }
+  .avatar > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+
+.honor {
+  height: 0.41rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 0.24rem;
+  color: #32f3ff;
+  margin: 0.27rem auto; }
+  .honor > span {
+    padding: 0 0.1rem; }
+  .honor > .honorImg > img {
+    width: 0.32rem;
+    height: 0.4rem; }
+
+::-webkit-input-placeholder {
+  color: #65f5ff; }
+
+.office > .form label {
+  width: 1.2rem; }
+
+.form {
+  width: 6.4rem;
+  height: auto;
+  padding: 0.4rem 0.26rem;
+  box-sizing: border-box;
+  color: #32f3ff;
+  font-size: 0.24rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../image/membercenter/office-box.png") center/100% 100%; }
+
+.formControl {
+  height: 0.88rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.01rem dashed #7dc4d4;
+  color: #32f3ff; }
+  .formControl label {
+    font-weight: bold;
+    width: 1.5rem;
+    text-align: right; }
+  .formControl input {
+    width: 4.1rem;
+    height: 0.56rem;
+    outline: none;
+    color: #32f3ff;
+    background-color: #22201f;
+    border: none;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    font-size: 0.24rem; }
+
+.formControl {
+  border-bottom: none; }
+  .formControl > div {
+    display: flex;
+    width: 4.1rem;
+    justify-content: space-between; }
+    .formControl > div > input {
+      width: 2.5rem; }
+    .formControl > div > div {
+      height: 0.56rem;
+      width: 1.5rem;
+      text-align: center;
+      line-height: .56rem;
+      font-size: .24rem;
+      color: #32f3ff;
+      font-weight: bold;
+      background-color: #2a6367; }
+
+.tzwjBox {
+  display: flex;
+  justify-content: space-between; }
+
+.tzwjBox > button {
+  width: 1.78rem;
+  height: 0.56rem;
+  background-color: rgba(50, 243, 255, 0.4);
+  border: none;
+  font-size: 0.24rem;
+  color: #32f3ff; }
+
+.formControl > div .number {
+  width: 1.2rem; }
+
+.formControl > div .number:last-child {
+  margin-left: 0.1rem; }
+
+.formControl > div > .numberBox {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background: none; }
+
+.firstBox {
+  width: 6.1rem;
+  height: 1.76rem;
+  margin: 0.5rem auto 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between; }
+
+.firstBox > li {
+  width: 1.7rem;
+  height: 0.7rem; }
+
+.firstBox > li > a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.firstBox > li:first-of-type {
+  background: url(../image/membercenter/center-1.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(2) {
+  background: url(../image/membercenter/center-2.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(3) {
+  background: url(../image/membercenter/center-3.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(4) {
+  background: url(../image/membercenter/center-4.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(5) {
+  background: url(../image/membercenter/center-5.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(6) {
+  background: url(../image/membercenter/center-6.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(7) {
+  background: url(../image/membercenter/center-7.png) center/100% 100%; }
+
+.firstBox > li:nth-of-type(8) {
+  background: url(../image/membercenter/center-8.png) center/100% 100%; }
+
+.selectList {
+  width: 5.3rem;
+  height: 2.3rem;
+  margin: 0.8rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.selectList > li {
+  width: 2.4rem;
+  height: 0.7rem; }
+
+.selectList > li > a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.selectList > li:first-of-type {
+  background: url(../image/membercenter/office-1.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(2) {
+  background: url(../image/membercenter/office-2.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(3) {
+  background: url(../image/membercenter/office-3.png) center/100% 100%; }
+
+.selectList > li:nth-of-type(4) {
+  background: url(../image/membercenter/office-4.png) center/100% 100%; }
