@@ -1,0 +1,92 @@
+.rollout {
+  width: 3.1rem;
+  height: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.73rem;
+  margin-bottom: 0.4rem; }
+  .rollout > img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.form {
+  width: 6.4rem;
+  height: 4.5rem;
+  padding: 0.28rem 0.26rem;
+  box-sizing: border-box;
+  color: #32f3ff;
+  font-size: 0.24rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../image/rolloutlogin.png") center/100% 100%; }
+
+::-webkit-input-placeholder {
+  color: #65f5ff; }
+
+.formControl {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.01rem dashed #7dc4d4;
+  color: #32f3ff; }
+  .formControl:last-child {
+    border-bottom: none; }
+  .formControl .item {
+    width: 100%;
+    height: .58rem;
+    display: flex;
+    margin-bottom: .3rem;
+    margin-top: .3rem; }
+    .formControl .item .left {
+      flex: 1;
+      text-align: right;
+      padding-right: .2rem;
+      color: #32f3ff;
+      font-weight: bold;
+      font-size: .24rem;
+      line-height: .58rem; }
+    .formControl .item .right {
+      width: 3.86rem;
+      flex: none;
+      font-size: .24rem;
+      line-height: .58rem;
+      color: #32f3ff;
+      padding-left: .2rem;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between; }
+      .formControl .item .right > span {
+        flex: auto; }
+    .formControl .item .center {
+      width: 1.6rem;
+      text-align: center;
+      position: relative;
+      line-height: .58rem; }
+      .formControl .item .center > img {
+        width: 1.3rem;
+        vertical-align: middle; }
+
+.jingImg {
+  width: 4.4rem;
+  height: 1.68rem;
+  margin: 0.8rem auto 0.7rem; }
+
+ul.list {
+  width: 6.4rem;
+  display: flex;
+  height: .73rem;
+  box-sizing: border-box;
+  margin: .56rem auto;
+  justify-content: space-between; }
+  ul.list > li {
+    width: 1.8rem; }
+    ul.list > li > a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      ul.list > li > a > img {
+        width: 100%; }
+    ul.list > li:last-child {
+      width: 2.2rem; }
