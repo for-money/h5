@@ -40,7 +40,6 @@ body {
 .tabBox {
   width: 100%;
   height: auto;
-  padding-top: 0.58rem;
 }
 
 .avatar {
@@ -88,12 +87,16 @@ body {
 }
 .form {
   width: 6.4rem;
-  height: auto;
+  height: 12.27rem;
   padding: 0.4rem 0.26rem;
   box-sizing: border-box;
   color: $theme;
   font-size: $fontSize;
   @include auto;
+  background: url("../image/membercenter/center-box.png") center / 100% 100%;
+}
+.office > .form {
+  height: 5.1rem;
   background: url("../image/membercenter/office-box.png") center / 100% 100%;
 }
 .formControl {
@@ -181,8 +184,9 @@ body {
   align-content: space-between; }
 
 .firstBox > li {
-  width: 1.7rem;
-  height: 0.7rem; }
+  width: 1.89rem;
+  height: .54rem;
+   }
 
 .firstBox > li > a {
   display: block;
