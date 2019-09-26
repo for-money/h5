@@ -1,246 +1,282 @@
 @import "var";
 @import 'mixin';
+
 body {
-  width: 100%;
-  height: auto;
-  background: url("../image/bis-bgs.png");
+    width: 100%;
+    height: auto;
+    background: url("../image/bis-bgs.png");
 }
 
 .tab {
-  width: 3.76rem;
-  height: 0.6rem;
-  margin: 0.76rem auto;
-  border-radius: 0.3rem;
-  border: solid 0.02rem $theme;
-  color: $theme;
-  font-size: $fontSize;
+    width: 3.76rem;
+    height: 0.6rem;
+    margin: 0.76rem auto;
+    border-radius: 0.3rem;
+    border: solid 0.02rem $theme;
+    color: $theme;
+    font-size: $fontSize;
 }
 
 .tab > li {
-  width: 50%;
-  height: 100%;
-  float: left;
-  text-align: center;
-  line-height: 0.6rem;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 0.6rem;
 }
 
 .tab > li:first-child {
-  border-radius: 0.25rem 0 0 0.25rem;
+    border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .tab > li:last-child {
-  border-radius: 0 0.25rem 0.25rem 0;
+    border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .tab > li.active {
-  background: $theme;
-  color: #000000;
+    background: $theme;
+    color: #000000;
 }
 
 .tabBox {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .avatar {
-  width: 1.7rem;
-  height: 1.7rem;
-  border-radius: 50%;
-  border: 0.02rem solid $theme;
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-  //box-shadow: 0 0 0 0.09rem  rgba(0,0,0,0), 0 0 0 0.1rem rgba(255,255,255,1);
-  > img{
-    width: 100%;
-    height: 100%;
+    width: 1.7rem;
+    height: 1.7rem;
     border-radius: 50%;
-  }
+    border: 0.02rem solid $theme;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    //box-shadow: 0 0 0 0.09rem  rgba(0,0,0,0), 0 0 0 0.1rem rgba(255,255,255,1);
+    > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
 }
 
 
-.honor{
-  height: 0.41rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: $fontSize;
-  color: $theme;
-  margin: 0.27rem auto;
-  > span{
-    padding: 0 0.1rem;
-  }
-  > .honorImg{
-    > img{
-      width: 0.32rem;
-      height: 0.4rem;
+.honor {
+    height: 0.41rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: $fontSize;
+    color: $theme;
+    margin: 0.27rem auto;
+
+    > span {
+        padding: 0 0.1rem;
     }
-  }
+
+    > .honorImg {
+        > img {
+            width: 0.32rem;
+            height: 0.4rem;
+        }
+    }
 }
 
 
 ::-webkit-input-placeholder {
-  color: #65f5ff;
+    color: #65f5ff;
 }
-.office > .form  label{
-  width: 1.2rem;
+
+.office > .form label {
+    width: 1.2rem;
 }
+
 .form {
-  width: 6.4rem;
-  height: 12.27rem;
-  padding: 0.4rem 0.26rem;
-  box-sizing: border-box;
-  color: $theme;
-  font-size: $fontSize;
-  @include auto;
-  background: url("../image/membercenter/center-box.png") center / 100% 100%;
-}
-.office > .form {
-  height: 5.1rem;
-  background: url("../image/membercenter/office-box.png") center / 100% 100%;
-}
-.formControl {
-  height: 0.88rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 0.01rem dashed #7dc4d4;
-  color: $theme;
-
-  label {
-    font-weight: bold;
-    width: 1.5rem;
-    text-align: right;
-  }
-
-  input {
-    width: 4.1rem;
-    height: 0.56rem;
-    outline: none;
-    color: $theme;
-    background-color: #22201f;
-    border: none;
-    padding: 0 0.2rem;
+    width: 6.4rem;
+    height: 12.27rem;
+    padding: 0.4rem 0.26rem;
     box-sizing: border-box;
+    color: $theme;
     font-size: $fontSize;
-  }
+    @include auto;
+    background: url("../image/membercenter/center-box.png") center / 100% 100%;
 }
+
+.office > .form {
+    height: 5.1rem;
+    background: url("../image/membercenter/office-box.png") center / 100% 100%;
+}
+
 .formControl {
-  border-bottom: none;
-  > div {
+    height: 0.88rem;
     display: flex;
-    width: 4.1rem;
-    justify-content: space-between;
-    > input {
-      width: 2.5rem;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.01rem dashed #7dc4d4;
+    color: $theme;
+
+    label {
+        font-weight: bold;
+        width: 1.5rem;
+        text-align: right;
     }
+
+    input {
+        width: 4.1rem;
+        height: 0.56rem;
+        outline: none;
+        color: $theme;
+        background-color: #22201f;
+        border: none;
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+        font-size: $fontSize;
+    }
+}
+
+.formControl {
+    border-bottom: none;
+
     > div {
-      height: 0.56rem;
-      width: 1.5rem;
-      text-align: center;
-      line-height: .56rem;
-      font-size: .24rem;
-      color: #32f3ff;
-      font-weight:bold;
-      background-color: #2a6367;
+        display: flex;
+        width: 4.1rem;
+        justify-content: space-between;
+
+        > input {
+            width: 2.5rem;
+        }
+
+        > div {
+            height: 0.56rem;
+            width: 1.5rem;
+            text-align: center;
+            line-height: .56rem;
+            font-size: .24rem;
+            color: #32f3ff;
+            font-weight: bold;
+            background-color: #2a6367;
+        }
     }
-  }
-}
-.tzwjBox{
-  display: flex;
-  justify-content: space-between;
-
-}
-.tzwjBox > button{
-  width: 1.78rem;
-  height: 0.56rem;
-  background-color: rgba(50,243,255,0.4);
-  border:none;
-  font-size: $fontSize;
-  color: $theme;
-}
-.formControl > div  .number{
-  width: 1.2rem;
-}
-.formControl > div  .number:last-child{
-  margin-left: 0.1rem;
 }
 
-.formControl > div > .numberBox{
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  background: none;
+.tzwjBox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tzwjBox > button {
+    width: 1.78rem;
+    height: 0.56rem;
+    background-color: rgba(50, 243, 255, 0.4);
+    border: none;
+    font-size: $fontSize;
+    color: $theme;
+}
+
+.formControl > div .number {
+    width: 1.2rem;
+}
+
+.formControl > div .number:last-child {
+    margin-left: 0.1rem;
+}
+
+.formControl > div > .numberBox {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background: none;
 }
 
 
 .firstBox {
-  width: 6.1rem;
-  height: 1.76rem;
-  margin: 0.5rem auto 0.6rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: space-between; }
+    width: 6.1rem;
+    margin: 0.5rem auto 0.6rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
 
 .firstBox > li {
-  width: 1.89rem;
-  height: .54rem;
-   }
+    width: 1.89rem;
+    height: .54rem;
+    margin-right: 0.21rem;
+    margin-top: 0.4rem;
+}
 
 .firstBox > li > a {
-  display: block;
-  width: 100%;
-  height: 100%; }
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .firstBox > li:first-of-type {
-  background: url(../image/membercenter/center-1.png) center/100% 100%; }
+    background: url(../image/membercenter/center-1.png) center/100% 100%;
+}
 
 .firstBox > li:nth-of-type(2) {
-  background: url(../image/membercenter/center-2.png) center/100% 100%; }
+    background: url(../image/membercenter/center-2.png) center/100% 100%;
+}
 
 .firstBox > li:nth-of-type(3) {
-  background: url(../image/membercenter/center-3.png) center/100% 100%; }
+    background: url(../image/membercenter/center-3.png) center/100% 100%;
+    margin-right: 0;
+}
 
 .firstBox > li:nth-of-type(4) {
-  background: url(../image/membercenter/center-4.png) center/100% 100%; }
+    background: url(../image/membercenter/center-4.png) center/100% 100%;
+}
 
 .firstBox > li:nth-of-type(5) {
-  background: url(../image/membercenter/center-5.png) center/100% 100%; }
+    background: url(../image/membercenter/center-5.png) center/100% 100%;
+}
 
 .firstBox > li:nth-of-type(6) {
-  background: url(../image/membercenter/center-6.png) center/100% 100%; }
+    background: url(../image/membercenter/center-6.png) center/100% 100%;
+    margin-right: 0;
+}
+
 .firstBox > li:nth-of-type(7) {
-  background: url(../image/membercenter/center-7.png) center/100% 100%; }
+    background: url(../image/membercenter/center-7.png) center/100% 100%;
+}
 
 .firstBox > li:nth-of-type(8) {
-  background: url(../image/membercenter/center-8.png) center/100% 100%; }
+    background: url(../image/membercenter/center-8.png) center/100% 100%;
+}
 
 .selectList {
-  width: 5.3rem;
-  height: 2.3rem;
-  margin: 0.8rem auto 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+    width: 5.3rem;
+    height: 2.3rem;
+    margin: 0.8rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .selectList > li {
-  width: 2.4rem;
-  height: 0.7rem; }
+    width: 2.4rem;
+    height: 0.7rem;
+}
 
 .selectList > li > a {
-  display: block;
-  width: 100%;
-  height: 100%; }
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .selectList > li:first-of-type {
-  background: url(../image/membercenter/office-1.png) center/100% 100%; }
+    background: url(../image/membercenter/office-1.png) center/100% 100%;
+}
 
 .selectList > li:nth-of-type(2) {
-  background: url(../image/membercenter/office-2.png) center/100% 100%; }
+    background: url(../image/membercenter/office-2.png) center/100% 100%;
+}
 
 .selectList > li:nth-of-type(3) {
-  background: url(../image/membercenter/office-3.png) center/100% 100%; }
+    background: url(../image/membercenter/office-3.png) center/100% 100%;
+}
 
 .selectList > li:nth-of-type(4) {
-  background: url(../image/membercenter/office-4.png) center/100% 100%; }
+    background: url(../image/membercenter/office-4.png) center/100% 100%;
+}
