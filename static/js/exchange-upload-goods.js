@@ -5,7 +5,7 @@ $(function(){
         tabs.removeClass('active').eq(index).addClass('active');
         $('.tabChange').css('display','none').eq(index).css('display','block');
     });
-    tabs.eq(0).triggerHandler('click');
+    tabs.eq(1).triggerHandler('click');
 
 
     let selectedColl = $('.exchange-goods>.exchange-goods-info');
@@ -22,4 +22,9 @@ $(function(){
     });
     isSelected.eq(0).triggerHandler('click');
 
+
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 20
+    });
 })
