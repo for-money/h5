@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+.release-notice-title{
+    width: 3.12rem;
+    height: 1.31rem;
+    margin: 0.9rem auto 0.38rem;
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+.text1{
+    width: 100%;
+    color: #65f5ff;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    margin-bottom: 0.27rem;
+    padding-left: 1.12rem;
+    box-sizing: border-box;
+}
+.textarea-box{
+    width: 5.92rem;
+    height: 2.73rem;
+    margin-left: 0.79rem;
+    background-color: rgba(101,245,255,0.1);
+    padding: 0.17rem 0.2rem;
+    box-sizing: border-box;
+    border: none;
+
+}
+textarea::-webkit-input-placeholder{
+    color: #65f5ff;
+    font-size: 0.24rem;
+}
+.text2{
+    width: 100%;
+    color: #65f5ff;
+    font-size: 0.2rem;
+    line-height: 0.24rem;
+    margin-top: 0.27rem;
+    padding-left: 1.12rem;
+    box-sizing: border-box;
+    opacity: 0.8;
+    margin-bottom: 3.6rem;
+}
+.button-box{
+    width: 100%;
+    height: 0.74rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin: 0.6rem 0 0.9rem;
+    .submit-info{
+        width: 2.38rem;
+        height: 0.74rem;
+        img{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+}
