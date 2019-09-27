@@ -168,7 +168,7 @@ div#wrapper div#scroll #thelist {
   width: 6.9rem;
   margin: 0 auto; }
 
-div#wrapper div#scroll #thelist li {
+div#wrapper div#scroll #thelist > li {
   width: 100%;
   height: 2.7rem;
   box-sizing: border-box;
@@ -178,7 +178,7 @@ div#wrapper div#scroll #thelist li {
   align-items: center;
   justify-content: space-between; }
 
-div#wrapper div#scroll #thelist li .bianhao {
+div#wrapper div#scroll #thelist > li .bianhao {
   width: .6rem;
   height: .6rem;
   border: 1px solid #15f6fd;
@@ -190,16 +190,16 @@ div#wrapper div#scroll #thelist li .bianhao {
   text-align: center;
   line-height: .6rem; }
 
-div#wrapper div#scroll #thelist li .left {
+div#wrapper div#scroll #thelist > li .left {
   width: 2.8rem;
   flex: none;
   text-align: right;
   position: relative; }
 
-div#wrapper div#scroll #thelist li .left > img {
+div#wrapper div#scroll #thelist > li .left > img {
   width: 1.7rem; }
 
-div#wrapper div#scroll #thelist li .left .l {
+div#wrapper div#scroll #thelist > li .left .l {
   position: absolute;
   width: .64rem;
   height: .64rem;
@@ -210,54 +210,54 @@ div#wrapper div#scroll #thelist li .left .l {
   overflow: hidden;
   text-align: center; }
 
-div#wrapper div#scroll #thelist li .left .l img {
+div#wrapper div#scroll #thelist > li .left .l img {
   border-radius: 50%; }
 
-div#wrapper div#scroll #thelist li .right {
+div#wrapper div#scroll #thelist > li .right {
   flex: auto;
   color: #15f6fd;
   padding-left: .2rem;
   box-sizing: border-box; }
 
-div#wrapper div#scroll #thelist li .right .name {
+div#wrapper div#scroll #thelist > li .right .name {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: .56rem; }
 
-div#wrapper div#scroll #thelist li .right .name > span {
+div#wrapper div#scroll #thelist > li .right .name > span {
   width: 2.6rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-div#wrapper div#scroll #thelist li .right .name > img {
+div#wrapper div#scroll #thelist > li .right .name > img {
   width: 1.1rem; }
 
-div#wrapper div#scroll #thelist li .right .count {
+div#wrapper div#scroll #thelist > li .right .count {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: .56rem; }
 
-div#wrapper div#scroll #thelist li .right .count > ul.imglist {
+div#wrapper div#scroll #thelist > li .right .count > ul.imglist {
   display: flex;
   align-items: center;
   justify-content: space-between; }
 
-div#wrapper div#scroll #thelist li .right .count > ul.imglist li > img {
+div#wrapper div#scroll #thelist > li .right .count > ul.imglist > li > img {
   width: .33rem; }
 
-div#wrapper div#scroll #thelist li .right .sign {
+div#wrapper div#scroll #thelist > li .right .sign {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: .56rem; }
 
-div#wrapper div#scroll #thelist li .right .sign > img:first-child {
+div#wrapper div#scroll #thelist > li .right .sign > img:first-child {
   width: 1.9rem; }
 
-div#wrapper div#scroll #thelist li .right .sign > img:last-child {
+div#wrapper div#scroll #thelist > li .right .sign > img:last-child {
   width: 1.8rem; }
 
 div#wrapper div#scroll #pullUp {
