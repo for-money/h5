@@ -7,10 +7,11 @@ body {
   width: 3.12rem;
   height: 1.31rem;
   margin: 0.9rem auto 0.38rem; }
-  .release-notice-title img {
-    width: 100%;
-    height: 100%;
-    display: block; }
+
+.release-notice-title img {
+  width: 100%;
+  height: 100%;
+  display: block; }
 
 .text1 {
   width: 100%;
@@ -28,7 +29,8 @@ body {
   background-color: rgba(101, 245, 255, 0.1);
   padding: 0.17rem 0.2rem;
   box-sizing: border-box;
-  border: none; }
+  border: none;
+  color: #65f5ff; }
 
 textarea::-webkit-input-placeholder {
   color: #65f5ff;
@@ -57,10 +59,12 @@ textarea::-webkit-input-placeholder {
   padding: 0 1rem;
   box-sizing: border-box;
   margin: 0.6rem 0 0.9rem; }
-  .button-box .submit-info {
-    width: 2.38rem;
-    height: 0.74rem; }
-    .button-box .submit-info img {
-      width: 100%;
-      height: 100%;
-      display: block; }
+
+.button-box .submit-info {
+  width: 2.38rem;
+  height: 0.74rem; }
+
+.button-box .submit-info img {
+  width: 100%;
+  height: 100%;
+  display: block; }
