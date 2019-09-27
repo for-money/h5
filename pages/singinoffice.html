@@ -9,88 +9,86 @@
     <title>升级代理</title>
     <link rel="stylesheet" href="../static/scss/common.css">
     <link rel="stylesheet" href="../static/scss/signinoffice.css">
-    <link rel="stylesheet" href="../static/scss/bg.css">
     <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.3/weui.min.css">
     <script src="../static/js/rem.js"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/libs/weuijs/1.1.4/weui.min.js"></script>
 </head>
 <body class="sjdj">
 <div class="bg">
-    <img src="../static/image/bis-bgs.png" alt="">
+    <div class="rollout">
+        <img src="../static/image/singinoffice.png" alt="">
+    </div>
+    <form class="form" id="form">
+        <div class="formControl">
+            <label>负责人姓名</label>
+            <input type="text" placeholder="请输入姓名" value="李元芳"/>
+        </div>
+
+        <div class="formControl">
+            <label>身份证号</label>
+            <input type="text" placeholder="请输入身份证号" value="12312312312312">
+        </div>
+        <div class="formControl">
+            <label>手机号码</label>
+            <input type="text" placeholder="请输入手机号码" value="181231283182">
+        </div>
+        <div class="formControl">
+            <label>办公室地址</label>
+            <div>
+                <div class="selectCity">
+                    <div class="city pro">
+                        <span>山西省</span>
+                        <span>
+                        <img src="../static/image/tobottom.png" alt="">
+                    </span>
+                    </div>
+                    <div class="city town">
+                        <span>运城市</span>
+                        <span>
+                        <img src="../static/image/tobottom.png" alt="">
+                    </span>
+                    </div>
+                    <div class="city coun">
+                        <span>县</span>
+                        <span>
+                        <img src="../static/image/tobottom.png" alt="">
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="formControl">
+            <label>图标</label>
+            <div>
+                <div class="imgbox">
+                    <img src="../static/image/imgbox.png" alt="">
+                </div>
+                <div class="up">
+                    上传
+                </div>
+            </div>
+        </div>
+
+        <div class="formControl">
+            <label>办公室名称</label>
+            <input type="text" placeholder="请输入办公室名称" value="李元芳">
+        </div>
+
+        <div class="formControl">
+            <label>验证码</label>
+            <div>
+                <input type="text"/>
+                <div>获取验证码</div>
+            </div>
+        </div>
+    </form>
+    <div class="zhu">注： 请按照登记表内容正确录入信息</div>
+
+    <button form="form" id="submit">
+    </button>
 </div>
-<div class="rollout">
-    <img src="../static/image/singinoffice.png" alt="">
-</div>
-<form class="form" id="form">
-    <div class="formControl">
-        <label>负责人姓名</label>
-        <input type="text" placeholder="请输入姓名" value="李元芳"/>
-    </div>
-
-    <div class="formControl">
-        <label>身份证号</label>
-        <input type="text" placeholder="请输入身份证号" value="12312312312312">
-    </div>
-    <div class="formControl">
-        <label>手机号码</label>
-        <input type="text" placeholder="请输入手机号码" value="181231283182">
-    </div>
-    <div class="formControl">
-        <label>办公室地址</label>
-        <div>
-            <div class="selectCity">
-                <div class="city pro">
-                    <span>山西省</span>
-                    <span>
-                        <img src="../static/image/tobottom.png" alt="">
-                    </span>
-                </div>
-                <div class="city town">
-                    <span>运城市</span>
-                    <span>
-                        <img src="../static/image/tobottom.png" alt="">
-                    </span>
-                </div>
-                <div class="city coun">
-                    <span>县</span>
-                    <span>
-                        <img src="../static/image/tobottom.png" alt="">
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="formControl">
-        <label>图标</label>
-        <div>
-            <div class="imgbox">
-                <img src="../static/image/imgbox.png" alt="">
-            </div>
-            <div class="up">
-                上传
-            </div>
-        </div>
-    </div>
-
-    <div class="formControl">
-        <label>办公室名称</label>
-        <input type="text" placeholder="请输入办公室名称" value="李元芳">
-    </div>
-
-    <div class="formControl">
-        <label>验证码</label>
-        <div>
-            <input type="text"/>
-            <div>获取验证码</div>
-        </div>
-    </div>
-</form>
-<div class="zhu">注： 请按照登记表内容正确录入信息</div>
-
-<button form="form" id="submit">
-</button>
 </body>
 </html>
 <script src="../static/js/signinoffice.js"></script>

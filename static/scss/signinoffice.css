@@ -6,10 +6,24 @@
   margin-right: auto;
   margin-top: 0.73rem;
   margin-bottom: 0.4rem; }
-  .rollout > img {
-    width: 100%;
-    height: 100%;
-    display: block; }
+
+.rollout > img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.bg {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-image: url("../image/bis-bgs.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 .form {
   width: 6.4rem;
@@ -32,116 +46,133 @@
   justify-content: space-around;
   border-bottom: 0.01rem dashed #7dc4d4;
   color: #32f3ff; }
-  .formControl label {
-    font-weight: bold;
-    width: 1.2rem;
-    text-align: right; }
-  .formControl input {
-    width: 4.1rem;
-    height: 0.56rem;
-    outline: none;
-    color: #32f3ff;
-    background-color: #22201f;
-    border: none;
-    padding: 0 0.2rem;
-    box-sizing: border-box; }
+
+.formControl label {
+  font-weight: bold;
+  width: 1.2rem;
+  text-align: right; }
+
+.formControl input {
+  width: 4.1rem;
+  height: 0.56rem;
+  outline: none;
+  color: #32f3ff;
+  background-color: #22201f;
+  border: none;
+  padding: 0 0.2rem;
+  box-sizing: border-box; }
 
 .formControl > div {
   display: flex;
   width: 4.1rem;
   justify-content: space-between; }
-  .formControl > div .items {
-    padding-left: 0.4rem;
-    position: relative; }
-  .formControl > div .items::before {
-    content: '';
-    width: 0.24rem;
-    height: 0.24rem;
-    position: absolute;
-    left: 0;
-    top: 0.05rem;
-    border-radius: 50%;
-    border: 0.01rem solid #32f3ff; }
-  .formControl > div .items.hot::before {
-    content: '●';
-    font-size: 0.23rem;
-    text-align: center;
-    line-height: 0.22rem; }
-  .formControl > div > .up {
-    height: 0.56rem;
-    width: 1.27rem;
-    text-align: center;
-    line-height: .56rem;
-    font-size: .24rem;
-    color: #32f3ff;
-    font-weight: bold;
-    background-color: #2a6367; }
-  .formControl > div .imgbox {
-    width: 1.3rem;
-    height: 0.56rem;
-    overflow: hidden; }
-    .formControl > div .imgbox > img {
-      width: 100%;
-      display: block;
-      overflow: hidden; }
-  .formControl > div .selectCity {
-    width: 100%;
-    height: .56rem;
-    background-color: #131818;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-    .formControl > div .selectCity .city {
-      border-radius: 5px;
-      width: 30%;
-      height: .56rem;
-      text-align: center;
-      border: 1px solid #4db4bb;
-      color: #4db4bb;
-      display: flex;
-      font-size: .2rem;
-      box-sizing: border-box; }
-      .formControl > div .selectCity .city > span {
-        line-height: .56rem; }
-        .formControl > div .selectCity .city > span:nth-child(1) {
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          width: 70%;
-          display: block;
-          color: #4db4bb; }
-        .formControl > div .selectCity .city > span:nth-child(2) {
-          width: 30%;
-          color: #4db4bb;
-          text-align: center;
-          display: block;
-          position: relative; }
-          .formControl > div .selectCity .city > span:nth-child(2) > img {
-            width: 60%;
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+
+.formControl > div .items {
+  padding-left: 0.4rem;
+  position: relative; }
+
+.formControl > div .items::before {
+  content: '';
+  width: 0.24rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  border-radius: 50%;
+  border: 0.01rem solid #32f3ff; }
+
+.formControl > div .items.hot::before {
+  content: '●';
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.22rem; }
+
+.formControl > div > .up {
+  height: 0.56rem;
+  width: 1.27rem;
+  text-align: center;
+  line-height: .56rem;
+  font-size: .24rem;
+  color: #32f3ff;
+  font-weight: bold;
+  background-color: #2a6367; }
+
+.formControl > div .imgbox {
+  width: 1.3rem;
+  height: 0.56rem;
+  overflow: hidden; }
+
+.formControl > div .imgbox > img {
+  width: 100%;
+  display: block;
+  overflow: hidden; }
+
+.formControl > div .selectCity {
+  width: 100%;
+  height: .56rem;
+  background-color: #131818;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.formControl > div .selectCity .city {
+  border-radius: 5px;
+  width: 30%;
+  height: .56rem;
+  text-align: center;
+  border: 1px solid #4db4bb;
+  color: #4db4bb;
+  display: flex;
+  font-size: .2rem;
+  box-sizing: border-box; }
+
+.formControl > div .selectCity .city > span {
+  line-height: .56rem; }
+
+.formControl > div .selectCity .city > span:nth-child(1) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+  display: block;
+  color: #4db4bb; }
+
+.formControl > div .selectCity .city > span:nth-child(2) {
+  width: 30%;
+  color: #4db4bb;
+  text-align: center;
+  display: block;
+  position: relative; }
+
+.formControl > div .selectCity .city > span:nth-child(2) > img {
+  width: 60%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .formControl:last-of-type {
   border-bottom: none; }
-  .formControl:last-of-type > div {
-    display: flex;
-    width: 4.1rem;
-    justify-content: space-between; }
-    .formControl:last-of-type > div > input {
-      width: 2.5rem; }
-    .formControl:last-of-type > div > div {
-      height: 0.56rem;
-      width: 1.5rem;
-      text-align: center;
-      line-height: .56rem;
-      font-size: .24rem;
-      color: #32f3ff;
-      font-weight: bold;
-      background-color: #2a6367; }
+
+.formControl:last-of-type > div {
+  display: flex;
+  width: 4.1rem;
+  justify-content: space-between; }
+
+.formControl:last-of-type > div > input {
+  width: 2.5rem; }
+
+.formControl:last-of-type > div > div {
+  height: 0.56rem;
+  width: 1.5rem;
+  text-align: center;
+  line-height: .56rem;
+  font-size: .24rem;
+  color: #32f3ff;
+  font-weight: bold;
+  background-color: #2a6367; }
 
 .jingImg {
   width: 4.4rem;
