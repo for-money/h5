@@ -1,0 +1,59 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.mask {
+  width: 100%;
+  height: 100%;
+  background: #010404; }
+  .mask .alert-content {
+    width: 6.37rem;
+    height: 3.55rem;
+    background: url("../image/mashBg.png") no-repeat top center;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.75rem;
+    margin-left: -3.17rem;
+    padding: 0 0.14rem;
+    box-sizing: border-box; }
+    .mask .alert-content .alert-content-title {
+      width: 100%;
+      height: 0.93rem;
+      border-bottom: 1px dashed rgba(101, 245, 255, 0.2);
+      display: flex;
+      display: -webkit-flex;
+      align-items: flex-end;
+      -webkit-align-items: flex-end;
+      padding-bottom: 0.17rem;
+      box-sizing: border-box;
+      padding-left: 0.3rem;
+      color: #65f5ff;
+      font-size: 0.3rem;
+      font-weight: bold; }
+      .mask .alert-content .alert-content-title span {
+        color: #e7cb59; }
+    .mask .alert-content .details-info {
+      width: 100%;
+      height: 0.7rem;
+      box-sizing: border-box;
+      padding-left: 0.3rem;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start; }
+      .mask .alert-content .details-info .details-info-title {
+        font-weight: bold;
+        color: #65f5ff;
+        font-size: 0.3rem;
+        width: 1.26rem;
+        text-align: right;
+        margin-right: 0.52rem; }
+      .mask .alert-content .details-info .details-info-content {
+        color: #65f5ff;
+        font-size: 0.24rem;
+        width: 3.7rem;
+        text-align: left; }
