@@ -7,10 +7,11 @@ body {
   width: 3.12rem;
   height: 1.31rem;
   margin: 0.9rem auto 0.38rem; }
-  .person-reward-title img {
-    width: 100%;
-    height: 100%;
-    display: block; }
+
+.person-reward-title img {
+  width: 100%;
+  height: 100%;
+  display: block; }
 
 .tab {
   margin: 0 .59rem .92rem;
@@ -20,39 +21,43 @@ body {
   -webkit-justify-content: space-between;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap; }
-  .tab .card {
-    width: 1.34rem;
-    height: 1.34rem;
-    background: url("../image/personalReward/tabBg.png") no-repeat top center;
-    background-size: 100% 100%;
-    padding: 0.32rem 0.22rem;
-    box-sizing: border-box;
-    color: #15f8ff;
-    font-size: 0.3rem;
-    line-height: 0.4rem;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
-    margin-right: 0.32rem;
-    margin-bottom: 0.37rem;
-    text-align: center; }
-    .tab .card.active {
-      background: url("../image/personalReward/tabBgSelected.png") no-repeat top center;
-      background-size: 100% 100%; }
-  .tab li:nth-child(4n) {
-    margin-right: 0; }
+
+.tab .card {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../image/personalReward/tabBg.png") no-repeat top center;
+  background-size: 100% 100%;
+  padding: 0.32rem 0.22rem;
+  box-sizing: border-box;
+  color: #15f8ff;
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  margin-right: 0.32rem;
+  margin-bottom: 0.37rem;
+  text-align: center; }
+
+.tab .card.active {
+  background: url("../image/personalReward/tabBgSelected.png") no-repeat top center;
+  background-size: 100% 100%; }
+
+.tab li:nth-child(4n) {
+  margin-right: 0; }
 
 .safeTitleBg-img {
   width: 4.4rem;
   height: 1.62rem;
   margin: 0 auto 0.4rem; }
-  .safeTitleBg-img img {
-    width: 100%;
-    height: 100%;
-    display: block; }
+
+.safeTitleBg-img img {
+  width: 100%;
+  height: 100%;
+  display: block; }
 
 .reward-beans {
   width: 100%;
@@ -69,30 +74,34 @@ body {
   margin: 0 auto 0.5rem;
   padding: 0.35rem 0.16rem;
   box-sizing: border-box; }
-  .release-beans .release-info {
-    width: 100%;
-    height: 1.06rem;
-    border-bottom: 1px dashed #7dc4d4;
-    display: -webkit-flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
-    padding: 0 0.59rem 0 0.41rem;
-    box-sizing: border-box; }
-    .release-beans .release-info .release-info-text {
-      font-size: 0.24rem;
-      color: #65f5ff; }
-    .release-beans .release-info .release-info-btn {
-      width: 1.27rem;
-      height: .56rem;
-      background-color: rgba(101, 245, 255, 0.4);
-      text-align: center;
-      line-height: 0.56rem;
-      color: #32f3ff;
-      font-size: 0.24rem; }
-  .release-beans .release-info:nth-child(3) {
-    border: none; }
+
+.release-beans .release-info {
+  width: 100%;
+  height: 1.06rem;
+  border-bottom: 1px dashed #7dc4d4;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 0 0.59rem 0 0.41rem;
+  box-sizing: border-box; }
+
+.release-beans .release-info .release-info-text {
+  font-size: 0.24rem;
+  color: #65f5ff; }
+
+.release-beans .release-info .release-info-btn {
+  width: 1.27rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.4);
+  text-align: center;
+  line-height: 0.56rem;
+  color: #32f3ff;
+  font-size: 0.24rem; }
+
+.release-beans .release-info:nth-child(3) {
+  border: none; }
 
 .access-beans {
   width: 6.37rem;
@@ -102,72 +111,82 @@ body {
   margin: 0 auto 1rem;
   padding: 0.36rem 0.16rem;
   box-sizing: border-box; }
-  .access-beans .access-info {
-    width: 100%;
-    height: 1.89rem;
-    border-bottom: 1px dashed #7dc4d4;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    justify-content: center;
-    -webkit-justify-content: center;
-    padding: 0 0.59rem 0 0.41rem;
-    box-sizing: border-box; }
-    .access-beans .access-info .access-info-save {
-      width: 100%;
-      height: 0.56rem;
-      display: flex;
-      display: -webkit-flex;
-      justify-content: space-between;
-      -webkit-justify-content: space-between;
-      align-items: center;
-      -webkit-align-items: center;
-      margin-bottom: 0.24rem; }
-      .access-beans .access-info .access-info-save .access-info-save-text1 {
-        color: #65f5ff;
-        font-size: 0.3rem; }
-      .access-beans .access-info .access-info-save .access-info-save-num {
-        width: 1.63rem;
-        height: .56rem;
-        background-color: rgba(101, 245, 255, 0.1);
-        color: #65f5ff;
-        font-size: 0.24rem;
-        line-height: 0.56rem;
-        padding-left: 0.2rem;
-        box-sizing: border-box; }
-      .access-beans .access-info .access-info-save .access-info-bean {
-        color: #65f5ff;
-        font-size: 0.3rem; }
-      .access-beans .access-info .access-info-save .access-info-save-btn {
-        width: 1.27rem;
-        height: .56rem;
-        background-color: rgba(101, 245, 255, 0.4);
-        text-align: center;
-        line-height: 0.56rem;
-        color: #32f3ff;
-        font-size: 0.24rem; }
-    .access-beans .access-info .access-details {
-      width: 100%;
-      height: 0.56rem;
-      display: -webkit-flex;
-      justify-content: space-between;
-      -webkit-justify-content: space-between;
-      align-items: center;
-      -webkit-align-items: center; }
-      .access-beans .access-info .access-details .release-info-text {
-        font-size: 0.24rem;
-        color: #65f5ff; }
-      .access-beans .access-info .access-details .release-info-btn {
-        width: 1.27rem;
-        height: .56rem;
-        background-color: rgba(101, 245, 255, 0.4);
-        text-align: center;
-        line-height: 0.56rem;
-        color: #32f3ff;
-        font-size: 0.24rem; }
-  .access-beans .access-info:nth-child(3) {
-    border: none; }
+
+.access-beans .access-info {
+  width: 100%;
+  height: 1.89rem;
+  border-bottom: 1px dashed #7dc4d4;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  padding: 0 0.59rem 0 0.41rem;
+  box-sizing: border-box; }
+
+.access-beans .access-info .access-info-save {
+  width: 100%;
+  height: 0.56rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  margin-bottom: 0.24rem; }
+
+.access-beans .access-info .access-info-save .access-info-save-text1 {
+  color: #65f5ff;
+  font-size: 0.3rem; }
+
+.access-beans .access-info .access-info-save .access-info-save-num {
+  width: 1.63rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.1);
+  color: #65f5ff;
+  font-size: 0.24rem;
+  line-height: 0.56rem;
+  padding-left: 0.2rem;
+  box-sizing: border-box; }
+
+.access-beans .access-info .access-info-save .access-info-bean {
+  color: #65f5ff;
+  font-size: 0.3rem; }
+
+.access-beans .access-info .access-info-save .access-info-save-btn {
+  width: 1.27rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.4);
+  text-align: center;
+  line-height: 0.56rem;
+  color: #32f3ff;
+  font-size: 0.24rem; }
+
+.access-beans .access-info .access-details {
+  width: 100%;
+  height: 0.56rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center; }
+
+.access-beans .access-info .access-details .release-info-text {
+  font-size: 0.24rem;
+  color: #65f5ff; }
+
+.access-beans .access-info .access-details .release-info-btn {
+  width: 1.27rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.4);
+  text-align: center;
+  line-height: 0.56rem;
+  color: #32f3ff;
+  font-size: 0.24rem; }
+
+.access-beans .access-info:nth-child(3) {
+  border: none; }
 
 .tab-list-beforeFive {
   width: 6.37rem;
@@ -177,137 +196,176 @@ body {
   padding: 0.26rem 0.16rem;
   box-sizing: border-box;
   margin: 0 auto 1rem; }
-  .tab-list-beforeFive .extract-list {
-    width: 100%;
-    height: 1.52rem;
-    padding: 0.4rem 0.38rem;
-    box-sizing: border-box;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
-    border-bottom: 1px dashed #7dc4d4; }
-    .tab-list-beforeFive .extract-list .extract-list-content {
-      width: 2.8rem;
-      height: 100%;
-      display: flex;
-      display: -webkit-flex;
-      flex-direction: column;
-      -webkit-flex-direction: column;
-      justify-content: center;
-      -webkit-justify-content: center; }
-      .tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 {
-        width: 100%;
-        height: 0.34rem;
-        display: flex;
-        display: -webkit-flex;
-        justify-content: flex-start;
-        -webkit-justify-content: flex-start;
-        align-items: center;
-        -webkit-align-items: center; }
-        .tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1.time {
-          margin-bottom: 0.14rem; }
-        .tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 .content-text1-tab {
-          color: #65f5ff;
-          font-size: 0.32rem;
-          margin-right: 0.16rem; }
-        .tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 .content-text1-desc {
-          color: #65f5ff;
-          font-size: 0.24rem; }
-    .tab-list-beforeFive .extract-list .extract-list-btn {
-      width: 1.27rem;
-      height: .56rem;
-      background-color: rgba(101, 245, 255, 0.4);
-      color: #32f3ff;
-      font-size: 0.24rem;
-      line-height: 0.56rem;
-      text-align: center; }
-  .tab-list-beforeFive .extract-list:nth-child(5) {
-    border-bottom: none; }
 
-.reward-goods {
+.tab-list-beforeFive .extract-list {
+  width: 100%;
+  height: 1.52rem;
+  padding: 0.4rem 0.38rem;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  border-bottom: 1px dashed #7dc4d4; }
+
+.tab-list-beforeFive .extract-list .extract-list-content {
+  width: 2.8rem;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center; }
+
+.tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 {
+  width: 100%;
+  height: 0.34rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: center;
+  -webkit-align-items: center; }
+
+.tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1.time {
+  margin-bottom: 0.14rem; }
+
+.tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 .content-text1-tab {
+  color: #65f5ff;
+  font-size: 0.32rem;
+  margin-right: 0.16rem; }
+
+.tab-list-beforeFive .extract-list .extract-list-content .extract-list-content-text1 .content-text1-desc {
+  color: #65f5ff;
+  font-size: 0.24rem; }
+
+.tab-list-beforeFive .extract-list .extract-list-btn {
+  width: 1.27rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.4);
+  color: #32f3ff;
+  font-size: 0.24rem;
+  line-height: 0.56rem;
+  text-align: center; }
+
+.tab-list-beforeFive .extract-list:nth-child(5) {
+  border-bottom: none; }
+
+.reward-goods .cn {
   width: 6.37rem;
   height: 6.9rem;
+  overflow-y: auto;
   background: url("../image/personalReward/goodsBg.png") no-repeat top center;
   background-size: 100% 100%;
   padding: 0.22rem 0.16rem;
   box-sizing: border-box;
-  margin: 0 auto 1rem; }
-  .reward-goods .upload-goods-box {
-    width: 100%;
-    height: 2.2rem;
-    padding: 0.28rem 0.4rem;
-    box-sizing: border-box;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
-    border-bottom: 1px dashed #7dc4d4; }
-    .reward-goods .upload-goods-box .upload-goods-img {
-      width: 1.5rem;
-      height: 1.35rem; }
-      .reward-goods .upload-goods-box .upload-goods-img img {
-        width: 100%;
-        height: 100%;
-        display: block; }
-    .reward-goods .upload-goods-box .upload-goods-content {
-      width: 3rem;
-      height: 100%;
-      display: flex;
-      display: -webkit-flex;
-      flex-direction: column;
-      justify-content: center;
-      -webkit-justify-content: center; }
-      .reward-goods .upload-goods-box .upload-goods-content .upload-goods-content-title {
-        font-size: 0.3rem;
-        color: #65f5ff;
-        line-height: 0.4rem;
-        margin-bottom: 0.3rem;
-        padding-left: 0.3rem;
-        box-sizing: border-box; }
-      .reward-goods .upload-goods-box .upload-goods-content .upload-goods-content-btn {
-        width: 2.65rem;
-        height: 0.56rem;
-        background-color: rgba(101, 245, 255, 0.4);
-        line-height: 0.56rem;
-        text-align: center;
-        color: #32f3ff;
-        font-size: 0.24rem; }
-  .reward-goods .upload-goods-box:nth-child(3) {
-    border-bottom: none; }
+  margin: 0 auto .5rem; }
+
+.reward-goods .cn .upload-goods-box {
+  width: 100%;
+  height: 2.2rem;
+  padding: 0.28rem 0.2rem;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  border-bottom: 1px dashed #7dc4d4; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-img {
+  width: 1.5rem;
+  height: 1.35rem; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-img img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-content {
+  width: 3.8rem;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-content .upload-goods-content-title {
+  font-size: 0.3rem;
+  color: #65f5ff;
+  height: .6rem;
+  line-height: .6rem;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-content .upload-goods-content-title > span {
+  flex: auto; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-content .upload-goods-content-title .user {
+  width: 1.27rem;
+  height: .56rem;
+  background-color: rgba(101, 245, 255, 0.4);
+  color: #32f3ff;
+  font-size: 0.24rem;
+  line-height: 0.56rem;
+  text-align: center; }
+
+.reward-goods .cn .upload-goods-box .upload-goods-content .upload-goods-content-btn {
+  width: 100%;
+  height: .9rem;
+  color: #32f3ff;
+  font-size: 0.24rem; }
+
+.reward-goods .cn .upload-goods-box:last-child {
+  border-bottom: none; }
+
+.reward-goods .img {
+  width: 2.38rem;
+  height: .7rem;
+  margin: .3rem auto; }
+
+.reward-goods .img > img {
+  width: 100%; }
 
 .reward-order {
   margin-bottom: 0.7rem; }
-  .reward-order .reward-order-list {
-    width: 6.38rem;
-    height: 1.96rem;
-    background: url("../image/personalReward/orderBg.png") no-repeat top center;
-    background-size: 100% 100%;
-    margin: 0 auto 0.3rem;
-    padding: 0.1rem 0.12rem;
-    box-sizing: border-box; }
-    .reward-order .reward-order-list .reward-order-list-time {
-      width: 100%;
-      height: 0.86rem;
-      border-bottom: solid 1px rgba(101, 245, 255, 0.1);
-      display: flex;
-      display: -webkit-flex;
-      justify-content: space-between;
-      -webkit-justify-content: space-between;
-      align-items: flex-end;
-      -webkit-align-items: flex-end;
-      padding: 0 0.3rem 0.16rem;
-      box-sizing: border-box;
-      color: #65f5ff;
-      font-size: 0.24rem; }
-    .reward-order .reward-order-list .reward-order-list-desc {
-      width: 100%;
-      height: 0.86rem;
-      padding: 0.19rem 0.3rem 0;
-      box-sizing: border-box;
-      color: #65f5ff;
-      font-size: 0.3rem; }
+
+.reward-order .reward-order-list {
+  width: 6.38rem;
+  height: 1.96rem;
+  background: url("../image/personalReward/orderBg.png") no-repeat top center;
+  background-size: 100% 100%;
+  margin: 0 auto 0.3rem;
+  padding: 0.1rem 0.12rem;
+  box-sizing: border-box; }
+
+.reward-order .reward-order-list .reward-order-list-time {
+  width: 100%;
+  height: 0.86rem;
+  border-bottom: solid 1px rgba(101, 245, 255, 0.1);
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  padding: 0 0.3rem 0.16rem;
+  box-sizing: border-box;
+  color: #65f5ff;
+  font-size: 0.24rem; }
+
+.reward-order .reward-order-list .reward-order-list-desc {
+  width: 100%;
+  height: 0.86rem;
+  padding: 0.19rem 0.3rem 0;
+  box-sizing: border-box;
+  color: #65f5ff;
+  font-size: 0.3rem; }

@@ -1,0 +1,87 @@
+@mixin bg{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    @include bg;
+    background-image: url("../image/bis-bgs.png");
+}
+
+.jingjidou {
+    display: block;
+    margin: .7rem auto;
+    width: 3.14rem;
+}
+.content {
+    height: calc(100% - 3rem);
+    width: 100%;
+    overflow-y: auto;
+    .ul {
+        width: 6.4rem;
+        margin: 0 auto;
+        .alert-content{
+            width: 6.37rem;
+            height: 3.5rem;
+            background: url("../image/mashBg.png") no-repeat top center;
+            background-size: 100% 100%;
+            padding: .34rem .2rem;
+            box-sizing: border-box;
+            margin-bottom: .3rem;
+            .details-info{
+                width: 100%;
+                height: 0.8rem;
+                margin: 0 auto;
+                box-sizing: border-box;
+                display: flex;
+                display: -webkit-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                justify-content: flex-start;
+                -webkit-justify-content: flex-start;
+                border-bottom: 1px dotted rgba(101,245,205,.3);
+                padding: 0 .4rem;
+                .details-info-title{
+                    font-weight: bold;
+                    color: #65f5ff;
+                    font-size: 0.3rem;
+                    flex: auto;
+                    text-align: left;
+                }
+                .details-info-content{
+                    color: #65f5ff;
+                    font-size: 0.24rem;
+                    width: .7rem;
+                    height: .4rem;
+                    text-align: left;
+                    background-color: #1f3738;
+                    border-radius: .2rem;
+                    position: relative;
+                    .click{
+                        width: .4rem;
+                        height: .4rem;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                    }
+                    &.active .click{
+                        background-color: #65f5ff;
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

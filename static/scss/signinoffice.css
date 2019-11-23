@@ -49,11 +49,11 @@ html, body {
 
 .formControl label {
   font-weight: bold;
-  width: 1.2rem;
+  width: 1.6rem;
   text-align: right; }
 
 .formControl input {
-  width: 4.1rem;
+  width: 3.8rem;
   height: 0.56rem;
   outline: none;
   color: #32f3ff;
@@ -64,7 +64,7 @@ html, body {
 
 .formControl > div {
   display: flex;
-  width: 4.1rem;
+  width: 3.8rem;
   justify-content: space-between; }
 
 .formControl > div .items {
@@ -158,11 +158,11 @@ html, body {
 
 .formControl:last-of-type > div {
   display: flex;
-  width: 4.1rem;
+  width: 3.8rem;
   justify-content: space-between; }
 
 .formControl:last-of-type > div > input {
-  width: 2.5rem; }
+  width: 2.1rem; }
 
 .formControl:last-of-type > div > div {
   height: 0.56rem;
@@ -187,7 +187,7 @@ html, body {
   border: none;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.7rem;
+  margin: 0.7rem auto;
   background-image: url("../image/clicksign.png");
   background-size: 100% 100%;
   background-position: center;

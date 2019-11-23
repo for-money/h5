@@ -159,15 +159,14 @@
 .upload-goods .upload-goods-selected .upload-goods-thumb {
   width: 1.56rem;
   height: 1.56rem;
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
 .upload-goods .upload-goods-selected .upload-goods-thumb.active .upload-goods-isSelected {
   display: block; }
 
 .upload-goods .upload-goods-selected .upload-goods-thumb img {
-  width: 100%;
-  height: 100%;
-  display: block; }
+  width: 95%; }
 
 .upload-goods .upload-goods-selected .upload-goods-thumb .upload-goods-isSelected {
   width: 0.4rem;
